@@ -2,104 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15319873-9924-4754-ae8e-791416f2e322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/members_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/j1902_withcar_dao/src/main/java/com/qf/j1902/mapper/AdminMenuAuthMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_dao/src/main/java/com/qf/j1902/mapper/AdminMenuAuthMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityWithBLOBs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Area.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFav.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductWithBLOBs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Visitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/test-classes/com/qf/j1902/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_service/target/classes/com/qf/j1902/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_service/target/test-classes/com/qf/j1902/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j1902_withcar_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,19 +286,28 @@
         <entry file="file://$PROJECT_DIR$/j1902_withcar_pojo/src/main/java/com/qf/j1902/pojo/Activity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-564">
+              <caret line="21" selection-start-line="21" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -234,6 +389,7 @@
         <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html" />
         <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/members_manager.html" />
         <option value="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" />
+        <option value="$PROJECT_DIR$/j1902_withcar_web/pom.xml" />
       </list>
     </option>
   </component>
@@ -244,6 +400,12 @@
         <option name="userSettingsFile" value="E:\javaLibrary\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="754" />
@@ -586,8 +748,16 @@
       <option name="presentableId" value="Default" />
       <updated>1562247866707</updated>
       <workItem from="1562247869898" duration="4460000" />
-      <workItem from="1562324968210" duration="5105000" />
+      <workItem from="1562324968210" duration="6304000" />
     </task>
+    <task id="LOCAL-00001" summary="2019/7/5">
+      <created>1562330351720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562330351720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -623,13 +793,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9565000" />
+    <option name="totallyTimeSpent" value="10764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -640,7 +809,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32928944" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2764505" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.21843003" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -650,12 +819,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32928944" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.090443686" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -666,6 +835,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019/7/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/7/5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java" />
@@ -728,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/j1902_withcar_pojo/src/main/java/com/qf/j1902/pojo/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -767,11 +940,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="143">
+          <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
     </entry>
