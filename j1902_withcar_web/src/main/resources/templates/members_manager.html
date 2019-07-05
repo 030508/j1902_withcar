@@ -1,0 +1,20 @@
+<div>
+    <table class="easyui-datagrid" style="width:400px;height:250px"
+           data-options="url:'datagrid_data.json',fitColumns:true,singleSelect:true，pagination：true">
+        <thead>
+        <tr class="tt">
+            <th data-options="field:'code',width:100">序号</th>
+            <th data-options="field:'name',width:100">账号</th>
+            <th data-options="field:'price',width:100,align:'right'">昵称</th>
+            <th data-options="field:'price',width:100,align:'right'">姓名</th>
+            <th data-options="field:'price',width:100,align:'right'">性别</th>
+            <th data-options="field:'price',width:100,align:'right'">注册时间</th>
+            <th data-options="field:'price',width:100,align:'right',attributes:{'url','#'}" >详情</th>
+        </tr>
+        </thead>
+    </table>
+
+</div>
+<script>
+    $(".tt").datagrid()
+</script>

@@ -29,4 +29,5 @@ public interface AdminMenuAuthMapper {
     int updateByPrimaryKeySelective(AdminMenuAuth record);
 
     int updateByPrimaryKey(AdminMenuAuth record);
+    List<AdminMenuAuth> findAdminMenusByUserName(String username);//查询用户所拥有的权限
 }

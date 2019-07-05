@@ -272,4 +272,20 @@
       parent_id = #{parentId,jdbcType=SMALLINT}
     where id = #{id,jdbcType=SMALLINT}
   </update>
+  <select id="findAdminMenusByUserName" resultMap="BaseResultMap">
+    SELECT
+    m.*
+    FROM
+    admin_user u,
+    admin_user_role ur,
+    admin_role r,
+    admin_role_menu rm,
+    admin_menu_auth m
+    WHERE
+    u.id = ur.user_id
+    AND ur.role_id = r.id
+    AND r.id = rm.role_id
+    AND rm.menu_id = m.id
+    AND u.username = #{username}
+  </select>
 </mapper>
