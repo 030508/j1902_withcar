@@ -272,7 +272,7 @@
       parent_id = #{parentId,jdbcType=SMALLINT}
     where id = #{id,jdbcType=SMALLINT}
   </update>
-  <select id="findAdminMenusByUserName" resultMap="BaseResultMap">
+  <select id="findAdminMenusByUserName" resultMap="BaseResultMap" parameterType="com.qf.j1902.pojo.AdminMenuAuth">
     SELECT
     m.*
     FROM

@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
-    <link rel="stylesheet" href="/js/themes/icon.css">
-    <link rel="stylesheet" href="/js/themes/default/easyui.css">
+    <link rel="stylesheet" href="/js/jquery-easyui-1.5/themes/icon.css">
+    <link rel="stylesheet" href="/js/jquery-easyui-1.5/themes/default/easyui.css">
 </head>
 
 <body class="easyui-layout">
 <div data-options="region:'north'," style="height:80px;"></div>
 <div data-options="region:'center',title:''" style="padding:5px;background:#eee;">
-    <div align="center" style="weight:250px;height: 250px"><br/><br/><br/>
-    <input class="easyui-textbox" data-options="iconCls:'icon-man'" style="width:200px;height: 40px"><br/><br/><br/>
-    <input class="easyui-textbox" data-options="iconCls:'icon-lock'" style="width:200px;height: 40px"><br/><br/><br/>
-        <button type="button"  style="width:80px;height: 40px">登录</button>
+    <div align="center" style="weight:270px;height: 450px"><br/><br/><br/>
+        <h2>欢迎登录伴我汽车</h2>
+     <form action="deallogin" method="post">
+    <input class="easyui-textbox" name="loginName" placeholder="USERNAME" data-options="iconCls:'icon-man'" style="width:260px;height: 40px" type="text"><br/><br/><br/>
+    <input class="easyui-textbox" placeholder="PASSWORD" name="password" data-options="iconCls:'icon-lock'" style="width:260px;height: 40px" type="password"><br/><br/><br/>
+     <div style="height: 40px;width: 260px">
+    <input class="easyui-textbox" placeholder="VERIFY" name="verrifyCode" style="width:125px;height: 40px;float: left" type="text">
+         <img id="imgCode" src="/getimage" width="125" height="40" style="float: left"/>
+     </div>
+    <a href="javaScript:changeCode();">换一张</a><br/><br><br>
+    <input type="submit" value="SUBMIT" style="width: 80px;height: 40px"/>
+
+     </form>
     </div>
 </div>
+<script type="text/javascript" src="/js/jquery-easyui-1.5/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery-easyui-1.5/jquery.easyui.min.js"></script>
 
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
 <script>
-
+    function changeCode() {
+        var timestamp=new Date().getTime();
+        $("#imgCode").attr("src","/getimage?timestamp="+timestamp);
+    }
 
 
 </script>
