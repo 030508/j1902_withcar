@@ -27,7 +27,7 @@ public class DateTest {
         Integer integer = Integer.valueOf(String.valueOf(new Date().getTime()).substring(0, 10));//创建时间并进行
 
 
-        Date nedate = new Date(new Long(integer)*1000);
+        Date nedate = new Date(new Long(integer)*1000);   //把Integer 转换成
 
         DateFormat dateformat = new SimpleDateFormat("yyy-MM-dd HH:mm:ss");
         System.out.println(dateformat.format(nedate));

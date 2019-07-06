@@ -2,121 +2,250 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15319873-9924-4754-ae8e-791416f2e322" name="Default Changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminMenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminRoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminMenuServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminRoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/controller/LoginRegController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/config/ShiroConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/exception/ExceptionController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/myrealm/MyRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/utils/ImgCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/utils/MD5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/utils/SessionKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/vo/LoginVo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml" afterPath="$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityChannelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityDealerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityInterfaceExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ActivityWithBLOBs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminMenuAuthExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminRoleMenuKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AdminUserRoleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Area.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/AreaExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleActionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ArticleTagExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarBrandExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarImageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarMakeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarModelImageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/CarSelectListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ChooseLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictAnswerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictBrandPointExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictCountryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictModelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/DictWeightExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberCarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFav.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberFavExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberLoginLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberPointExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberProfileLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTagExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MemberTokenExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/MessageSendlogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/OperateLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarActivityExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductCarExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/ProductWithBLOBs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/TagExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitLogExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/Visitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/classes/com/qf/j1902/pojo/VisitorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_pojo/target/test-classes/com/qf/j1902/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_service/target/classes/com/qf/j1902/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j1902_withcar_service/target/test-classes/com/qf/j1902/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j1902_withcar_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,7 +254,6 @@
     <ignored path="$PROJECT_DIR$/j1902_withcar_dao/target/" />
     <ignored path="$PROJECT_DIR$/j1902_withcar_web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,14 +262,40 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginRegController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/controller/LoginRegController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1653">
+              <caret line="87" column="18" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_pojo/src/main/java/com/qf/j1902/pojo/Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,100 +303,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="-564">
+              <caret line="21" selection-start-line="21" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/vo/LoginVo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/members_manager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="342">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/myrealm/MyRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="37" column="75" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="J1902WithcarWebApplication.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/J1902WithcarWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminMenuAuthMapper.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/java/com/qf/j1902/mapper/AdminMenuAuthMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="494">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5301">
+              <caret line="279" column="16" selection-start-line="279" selection-start-column="16" selection-end-line="279" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="80" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -261,648 +374,281 @@
     <findStrings>
       <find>&lt;li&gt;&lt;span&gt;</find>
       <find>pagination</find>
-      <find>'url','#'</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/j1902_withcar_dao/src/main/java/com/qf/j1902/mapper/AdminMenuAuthMapper.java" />
+        <option value="$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml" />
         <option value="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminUserService.java" />
+        <option value="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html" />
         <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/members_manager.html" />
         <option value="$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java" />
         <option value="$PROJECT_DIR$/j1902_withcar_web/pom.xml" />
-        <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/controller/LoginRegController.java" />
-        <option value="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/myrealm/MyRealm.java" />
-        <option value="$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml" />
-        <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\JavaLibrary\settings.xml" />
+        <option name="mavenHome" value="E:/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\javaLibrary\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="754" />
+    <option name="y" value="6" />
+    <option name="width" value="1155" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-easyui-1.5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-easyui-1.5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myrealm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902_withcar_dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j1902" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j1902_withcar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j1902_withcar" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902_withcar_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="j1902" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -922,9 +668,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaWorkSpace\j1902_withcar\j1902_withcar_web\src\main\resources\static\js" />
-      <recent name="D:\ideaWorkSpace\j1902_withcar\j1902_withcar_service\src\main\java\com\qf\j1902" />
-      <recent name="D:\ideaWorkSpace\j1902_withcar\j1902_withcar_web\src\main\java\com\qf\j1902" />
       <recent name="E:\javaee\j1902_withcar\j1902_withcar_web\src\main\resources" />
     </key>
   </component>
@@ -940,439 +683,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.J1902WithcarWebApplication">
-    <configuration default="false" name="DateTest.Sui" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+  <component name="RunManager" selected="JUnit.DateTest.Sui">
+    <configuration name="DateTest.Sui" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="j1902_withcar_web" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qf.j1902.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="j1902_withcar_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.qf.j1902.service" />
       <option name="MAIN_CLASS_NAME" value="com.qf.j1902.service.DateTest" />
       <option name="METHOD_NAME" value="Sui" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="DateTest.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="DateTest.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="j1902_withcar_web" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qf.j1902.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="j1902_withcar_web" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.qf.j1902.service" />
       <option name="MAIN_CLASS_NAME" value="com.qf.j1902.service.DateTest" />
       <option name="METHOD_NAME" value="aa" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="j1902_withcar" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="false" name="J1902WithcarDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.j1902.J1902WithcarDaoApplication" />
+    <configuration name="J1902WithcarDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="j1902_withcar_dao" />
-      <envs />
-      <method />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.j1902.J1902WithcarDaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="false" name="J1902WithcarWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.j1902.J1902WithcarWebApplication" />
+    <configuration name="J1902WithcarWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="j1902_withcar_web" />
-      <envs />
-      <method />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.j1902.J1902WithcarWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DateTest.Sui" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DateTest.aa" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.J1902WithcarDaoApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.J1902WithcarWebApplication" />
-    </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DateTest.Sui" />
+        <item itemvalue="JUnit.DateTest.aa" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1386,7 +749,6 @@
       <updated>1562247866707</updated>
       <workItem from="1562247869898" duration="4460000" />
       <workItem from="1562324968210" duration="6304000" />
-      <workItem from="1562381416858" duration="7637000" />
     </task>
     <task id="LOCAL-00001" summary="2019/7/5">
       <created>1562330351720</created>
@@ -1431,397 +793,165 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18401000" />
+    <option name="totallyTimeSpent" value="10764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32928944" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.21843003" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32928944" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.090443686" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2019/7/5" />
     <option name="LAST_COMMIT_MESSAGE" value="2019/7/5" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/controller/LoginRegController.java</url>
-          <line>55</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/controller/LoginRegController.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminUserService.java" />
+    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="95">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="18" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_pojo/src/main/java/com/qf/j1902/pojo/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="26" column="106" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
-          <folding />
+        <state relative-caret-position="1653">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/members_manager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/J1902WithcarWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#318#319#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/java/com/qf/j1902/mapper/AdminMenuAuthMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="494">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7533">
-          <caret line="279" column="16" lean-forward="false" selection-start-line="279" selection-start-column="16" selection-end-line="279" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="5301">
+          <caret line="279" column="16" selection-start-line="279" selection-start-column="16" selection-end-line="279" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/members_manager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_pojo/src/main/java/com/qf/j1902/pojo/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/java/jdk1.8.0_201/src.zip!/java/util/Date.java" />
-    <entry file="jar://E:/java/jdk1.8.0_201/src.zip!/java/util/Calendar.java" />
+    <entry file="jar://E:/java/jdk1.8.0_201/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0_201/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="1823" column="15" selection-start-line="1823" selection-start-column="15" selection-end-line="1823" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_pojo/src/main/java/com/qf/j1902/pojo/AdminUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="19" />
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/java/jdk1.8.0_201/src.zip!/java/lang/String.java" />
+    <entry file="jar://E:/java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15761">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/test/java/com/qf/j1902/service/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="26" column="106" lean-forward="false" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="143">
+          <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j1902_withcar_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-778">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/exception/ExceptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/utils/ImgCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/utils/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/utils/SessionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/static/js/jqurey/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/AdminUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_service/src/main/java/com/qf/j1902/service/impl/AdminUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/shiro/myrealm/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="37" column="75" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/resources/mapping/AdminMenuAuthMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="274" column="112" lean-forward="false" selection-start-line="274" selection-start-column="112" selection-end-line="274" selection-end-column="112" />
-          <folding>
-            <marker date="1562390536543" expanded="true" signature="3872:3984" ph="select from admin_menu_auth" />
-            <marker date="1562390536543" expanded="true" signature="4069:4135" ph="delete from " />
-            <marker date="1562390536543" expanded="true" signature="4240:4267" ph="delete from " />
-            <marker date="1562390536543" expanded="true" signature="4449:4858" ph="insert into admin_menu_auth... " />
-            <marker date="1562390536543" expanded="true" signature="6556:6592" ph="select count... admin_menu_auth" />
-            <marker date="1562390536543" expanded="true" signature="7929:8405" ph="update admin... " />
-            <marker date="1562390536543" expanded="true" signature="8618:9443" ph="update admin... " />
-            <marker date="1562390536543" expanded="true" signature="9544:9960" ph="update admin... " />
-            <marker date="1562390536543" expanded="true" signature="10092:10364" ph="SELECT m.* F... admin_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_dao/src/main/java/com/qf/j1902/mapper/AdminMenuAuthMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/vo/LoginVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/J1902WithcarWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/java/com/qf/j1902/controller/LoginRegController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="80" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j1902_withcar_web/src/main/resources/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="-564">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
     </entry>
