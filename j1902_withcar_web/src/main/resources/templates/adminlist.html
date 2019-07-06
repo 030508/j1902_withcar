@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>adminlist</h1>
-</body>
-</html>
+<h3>管理员列表</h3>
+<hr/>
+<table class="easyui-datagrid"
+       data-options="url:'/valid/dealAdminList/',fitColumns:true,singleSelect:false,pagination:true">
+    <thead>
+    <tr>
+        <th data-options="field:'ch',checkbox:true,width:100"></th>
+        <th data-options="field:'id',width:100">序号</th>
+        <th data-options="field:'name',width:100">管理员姓名</th>
+        <th data-options="field:'username',width:100">登录账号</th>
+        <th data-options="field:'isSuper',width:100">角色</th>
+        <th data-options="field:'opreator',width:100,align:'right'">操作</th>
+    </tr>
+    </thead>
+</table>
+
+

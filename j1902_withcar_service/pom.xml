@@ -23,6 +23,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
             <groupId>com.qf.j1902</groupId>
             <artifactId>j1902_withcar_pojo</artifactId>
             <version>1.0-SNAPSHOT</version>

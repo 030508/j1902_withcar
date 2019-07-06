@@ -7,7 +7,8 @@ import com.qf.j1902.pojo.AdminUser;
 import java.util.List;
 
 public interface AdminUserService {
-
+   List<AdminUser> findAllAdminUser();
+   List<AdminUser> findAllAdminUser(Integer page,Integer rows);
    //通过用户名查询
    AdminUser findOneByName(String username) throws Exception;
 

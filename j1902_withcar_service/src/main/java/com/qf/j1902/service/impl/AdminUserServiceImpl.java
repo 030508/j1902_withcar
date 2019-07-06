@@ -1,5 +1,6 @@
 package com.qf.j1902.service.impl;
 
+import com.github.pagehelper.PageHelper;
 import com.qf.j1902.mapper.AdminUserMapper;
 import com.qf.j1902.pojo.AdminUser;
 import com.qf.j1902.pojo.AdminUserExample;
@@ -13,6 +14,21 @@ import java.util.List;
 public class AdminUserServiceImpl implements AdminUserService {
     @Resource
     private AdminUserMapper adminUserMapper;
+
+    @Override
+    public List<AdminUser> findAllAdminUser() {
+        AdminUserExample adminUserExample = new AdminUserExample();
+        List<AdminUser> adminUsers = adminUserMapper.selectByExample(adminUserExample);
+        return adminUsers;
+    }
+
+    @Override
+    public List<AdminUser> findAllAdminUser(Integer page, Integer rows) {
+        AdminUserExample adminUserExample = new AdminUserExample();
+        PageHelper.startPage(page,rows);
+        List<AdminUser> adminUsers = adminUserMapper.selectByExample(adminUserExample);
+        return adminUsers;
+    }
 
     @Override
     public AdminUser findOneByName(String username)throws Exception {

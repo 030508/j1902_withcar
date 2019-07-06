@@ -10,6 +10,10 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.qf.j1902.pojo
+pagehelper:
+  helper-dialect: mysql
+  support-methods-arguments: true
+  reasonable: true
 
 
 
