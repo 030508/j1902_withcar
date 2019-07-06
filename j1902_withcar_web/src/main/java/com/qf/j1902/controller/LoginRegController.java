@@ -59,7 +59,7 @@ public class LoginRegController {
                             session.setAttribute(SessionKey.ADMINUSERMENUS,menus);
                             AdminRole role = adminRoleService.findAdminRolesByUserName(loginVo.getLoginName());
                             session.setAttribute(SessionKey.ADMINROLE,role);
-                            return "main";//如果登录成功返回的页面
+                            return "redirect:/valid/main";//如果登录成功返回的页面
                         }
                     }catch (AuthenticationException e){
                   System.out.println("用户名密码错误");
@@ -72,6 +72,8 @@ public class LoginRegController {
         System.out.println("失败");
         return "redirect:/";//未登录成功返回的页面
     }
+    @RequestMapping("/valid/main")
+    public String showMain(){return "main";}
 
 
 
@@ -85,12 +87,12 @@ public class LoginRegController {
 
 
     //    显示unauth视图
-    @RequestMapping("/unauth")
+    @RequestMapping(value = "/unauth",method = RequestMethod.POST)
     public String showUnauthView(){
         return "unauth";
     }
     //注销用户
-    @RequestMapping("/logout")
+    @RequestMapping("/valid/logout")
     public String logOut(){
         try {
             Subject subject = SecurityUtils.getSubject();
