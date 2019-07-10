@@ -1,17 +1,85 @@
 <h3>管理员列表</h3>
 <hr/>
-<table class="easyui-datagrid"
-       data-options="url:'/valid/dealAdminList/',fitColumns:true,singleSelect:false,pagination:true">
+<table id="dg" class="easyui-datagrid"
+       data-options="url:'/valid/dealAdminList/',rownumbers:true,toolbar:'#tb',fitColumns:true,singleSelect:false,pagination:true">
     <thead>
+    <div id="tb">
+        <input name="name" placeholder="管理员姓名">
+        <a class="easyui-linkbutton"  data-options="iconCls:'icon-search',plain:true,onClick:query" >查询</a>
+        <a style="float:right"  onclick="addAdminUser()" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true">新增</a>
+    </div>
     <tr>
-        <th data-options="field:'ch',checkbox:true,width:100"></th>
-        <th data-options="field:'id',width:100">序号</th>
+        <th data-options="field:'id',hidden:true,width:100">序号</th>
         <th data-options="field:'name',width:100">管理员姓名</th>
         <th data-options="field:'username',width:100">登录账号</th>
-        <th data-options="field:'isSuper',width:100">角色</th>
-        <th data-options="field:'opreator',width:100,align:'right'">操作</th>
+        <th data-options="field:'isSuper',width:100,formatter:formatStatu">角色</th>
+        <th data-options="field:'opreator',width:100,align:'right',formatter:formatOper">操作</th>
     </tr>
     </thead>
 </table>
+<script>
+    function query() {
+        $('#dg').datagrid('load',{
+            name:$("[name='name']").val()
+        });
+    }
+    $('#dg').datagrid({
+        toolbar: '#tb'
+    });
+//显示列中操作按钮
+    function formatOper(){
+        var str="<div><button style='float: left' onclick='editmanager(this)'>编辑</button><button style='margin-left: 8px' onclick='deleteadmin(this)'>删除</button></div>";
+        return str;
+    }
+    function deleteadmin() {
+            var brand = $("#dg").datagrid('getSelected');
+            $.ajax({
+                url: "/valid/deleteadmin?id="+brand.id,    //请求的url地址
+                type: "POST",   //请求方式
+                success : function (data) {
+                    if (data==1){
+                        $('#dg').datagrid('reload');}else {
+                        alert("删除失败!");
+                    }
+                }
+            })
+    }
+    //打开添加按钮
+    function addAdminUser() {
+        var tab = $("#tabls").tabs("getTab", "添加管理员列表");  //通过标题获取索引
+        if (tab) {//判断面板是否存在
+            $("#tabls").tabs("select","添加管理员列表");}//已存在获取焦点
+        $('#tabls').tabs('add',{
+            title: "添加管理员列表",
+            selected: true,
+            closable: true,
+            href:"/valid/addAdmin" //请 求资源地址
+            //...
+        });
+    }
+    //打开编辑页面
+    function editmanager() {
+        var row = $('#dg').datagrid('getSelected');
+        var username=row.username;
+        var tab = $("#tabls").tabs("getTab", "编辑会员信息");  //通过标题获取索引
+        if (tab) {//判断面板是否存在
+            $("#tabls").tabs("select","编辑会员信息");}//已存在获取焦点
+        $('#tabls').tabs('add',{
+            title: "编辑会员信息",
+            selected: true,
+            closable: true,
+            href:"/valid/editAdminList?username="+username //请 求资源地址
+            //...
+        });
+    }
+
+
+    function formatStatu(v,r,i) {
+        if (v==1){
+            return "超级管理员";
+        }
+        else {return "管理员";}
+    }
+</script>
 
 

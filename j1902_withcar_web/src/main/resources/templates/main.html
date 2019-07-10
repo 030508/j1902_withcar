@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
@@ -9,7 +9,13 @@
 <body>
 <body class="easyui-layout">
 <div data-options="region:'north',split:true" style="height:50px;">
-    <h2 align="center">伴我汽车后台管理页面</h2>
+    <img style="width: 30px;height: 30px;margin-top: 10px" src="http://img3.imgtn.bdimg.com/it/u=3082211982,3357162643&fm=26&gp=0.jpg"><b><font style="margin-top: 10px" size="5">伴我汽车后台管理页</font></b>
+    <span style="margin-left: 400px">时间:<span id="createtime"></span></span>
+    <span style="margin-left: 100px">用户:<font   th:text=${session.name}>张秦</font></span>
+    <span style="margin-left: 100px">  所属角色:<font th:if="${session.isSuper==1}">超级管理员</font>
+    <font th:if="${session.isSuper==0}">普通管理员</font></span>
+    <button style="float: right;margin-left: 30px" onclick="adminlogout()">退出</button>
+
 </div>
 <div data-options="region:'west',split:true" style="width:200px;">
     <div id="aa" class="easyui-accordion" data-options="fit:true" style="width:300px;height:200px;">
@@ -89,7 +95,7 @@
 <div data-options="region:'center'" style="padding:5px;background:#eee;">
     <div id="tabls" class="easyui-tabs" style="width:500px;height:250px;" data-options="fit:true">
         <div title="首页" style="padding:20px;display:none;">
-            <h3>this is home page</h3>
+            <h3>后台管理首页</h3>
         </div>
     </div>
 </div>
@@ -98,21 +104,27 @@
 
 <script type="text/javascript" src="/js/jquery-easyui-1.5/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery-easyui-1.5/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/js/moment/moment.min.js"></script>
+<script type="text/javascript" src="/js/moment/moment-with-locales.js"></script>
 <script>
+    //退出
+    function adminlogout() {
+        window.location.href="/valid/logout";
+    }
+    $("#createtime").text(moment(new Date()).format("YYYY年MM月DD日"));
     $('.easyui-tree').tree({
         onClick: function(node){
-           /* alert(node.text);  // 在用户点击的时候提示*/
+            //alert(node.text);  // 在用户点击的时候提示
             var tab = $("#tabls").tabs("getTab",node.text);  //通过标题获取索引
             if (tab) {//判断面板是否存在
                $("#tabls").tabs("select",node.text);//已存在获取焦点
             }else { //不存在创建一个选项卡面板
                 // 添加一个未选中状态的选项卡面板
-                $('#tabls').tabs('add', {
+                $('#tabls').tabs('add',{
                     title: node.text,
                     selected: true,
                     closable: true,
-                    href:node.attributes.url  //请求资源地址
-                    //...
+                    href:node.attributes.url  //请 求资源地址
                 });
 
             }
