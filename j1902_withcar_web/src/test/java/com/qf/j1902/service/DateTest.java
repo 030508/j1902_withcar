@@ -1,8 +1,10 @@
 package com.qf.j1902.service;
 
+import org.apache.shiro.crypto.hash.Md5Hash;
 import org.junit.Test;
 import org.omg.CORBA.DATA_CONVERSION;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.xml.crypto.Data;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -11,6 +13,16 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DateTest {
+
+    @Test
+    public void ss(){
+        Md5Hash md5Hash = new Md5Hash("admin",null,1024);
+        System.out.println(md5Hash.toString());
+        Date date = new Date();
+        Integer of = Integer.valueOf(String.valueOf(new Date().getTime()).substring(0, 10));
+        System.out.println(of);
+    }
+
     @Test
     public void Sui() throws ParseException {
       /*  Date date = new Date();
@@ -50,4 +62,10 @@ public class DateTest {
         System.out.println(nedate.getTime());
         System.out.println(oldDate.getTime());
     }
+
+    @Test
+    public void  ipii(){
+
+    }
+
 }

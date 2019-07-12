@@ -1,0 +1,65 @@
+
+<div xmlns:th="http://www.w3.org/1999/xhtml">
+    <form id="ff_add_car_serves" method="post"  role="form"  enctype="multipart/form-data">
+        <div style="float: left; text-align: right; width: 100px;">
+            <p style="margin-top: 0px">车系名称:</p>
+            <p style="margin-top: 25px">类型:</p>
+            <p style="margin-top: 25px">所属品牌:</p>
+            <p style="margin-top: 25px">所属厂商:</p>
+        </div>
+        <div style="margin-top: 20px">
+            <div>
+                <input name="name" type="text" value="name" class="easyui-textbox"  style="width:200px">
+            </div><br>
+            <div>
+                <select id="c" class="easyui-combobox" name="bodyFormName" style="width:200px;">
+                <option value="" th:value="${bodyFormName}" th:text="${bodyFormName}"></option>
+                <option value="" th:each="carb:${cars}"  th:value="${carb.bodyForm}" th:text="${carb.bodyFormName}">aitem1</option>
+            </select>
+            </div><br>
+            <div>
+                <select id="cc" class="easyui-combobox" name="makeId" style="width:200px;">
+                    <option value="" th:value="${makeName}" th:text="${makeName}"></option>
+                    <option value="" th:each="carM:${cars}"  th:value="${carM.makeName}" th:text="${carM.makeName}">aitem1</option>
+                </select>
+            </div><br>
+            <div>
+                <select  class="easyui-combobox" name="bodyFormName" style="width:200px;">
+                <option value="">请选择厂商</option>
+                <option value="" th:each="carbi:${cars}"  th:value="${carbi.makeName}" th:text="${carbi.makeName}">aitem1</option>
+            </select>
+            </div><br>
+        </div>
+    </form>
+    <div style="position: relative;top: 30px;  "  align="center" >
+        <button type="reset" onclick="quxiao()" >取消</button>
+        <button type="button" onclick="tijao()">提交</button>
+    </div>
+</div>
+<script>
+    function quxiao(){
+        $('#ff_add_car_serves').form('clear');
+    }
+    function tijao() {
+        var formData = new FormData($('#ff_add_car_serves')[0]);
+        $.ajax({
+            url: "/valid/add_car_series_reslt",    //请求的url地址
+            dataType: "json",   //返回格式为json
+            async: true,//请求是否异步，默认为异步，这也是ajax重要特性
+            data: formData,    //参数值
+            type: "POST",   //请求方式
+            processData: false,  //tell jQuery not to process the data
+            contentType: false,  //tell jQuery not to set contentType
+            success: function (data) {
+                if (data == '1') {
+                    $("#dg_cs").dialog("close");
+                    $('#dg_cs').datagrid('reload');
+                    /* $('#dg_bm').datagrid('reload');
+                    $(".tree-title:contains('品牌管理')").parent().click();*/
+                } else {
+                    alert("失败");
+                }
+            }
+        })
+    }
+</script>

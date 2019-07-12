@@ -1,0 +1,73 @@
+<style>
+    .div_id{
+        float: left;
+        width: 250px;
+    }
+</style>
+<div  xmlns:th="http://www.w3.org/1999/xhtml">
+    <table id="dg" class="easyui-datagrid">
+        <thead>
+            <div class="div_id" id="detail_id">
+
+                <p class="sc"> 账号: <span  th:text="${memberVo.member.id}" ></span><br/></p>
+                <p class="sc">  昵称: <span  th:text="${memberVo.member.nickname}"></span><br/></p>
+               <p class="sc">  性别: <span  th:text="${memberVo.member.gender}"></span><br/></p>
+              <p class="sc">   积分: <span  th:text="${memberVo.member.point}" ></span>  <br/></p>
+               <p class="sc">  标签: <span  th:each="tag:${memberVo.memberTags}"><span th:text="${tag}" ></span>&emsp;</span><br/></p>
+               <p class="sc">  地址: <span  th:text="${memberVo.member.address}" ></span><br/></p>
+               <p class="sc">  注册时间: <span  th:text="${memberVo.member.registerTime}" data-options="formatter:fromatCreateTime" ></span><br/></p>
+            </div>
+            <div class="div_id">
+                <p class="sc">  姓名: <span  th:text="${memberVo.member.name}"></span><br/></p>
+                <p class="sc">  邮箱: <span  th:text="${memberVo.member.email}" ></span><br/></p>
+            </div>
+            <div class="">
+                <img th:src="${memberVo.member.avatarUrl}" style="width: 190px;height: 190px" />
+            </div>
+        </thead>
+    </table>
+</div>
+
+<div  xmlns:th="http://www.w3.org/1999/xhtml">
+    <div id="tt" class="easyui-tabs" style="width:500px;height:250px;background-color: white" data-options="fit:true,plain:true">
+        <div title="我的座驾" style="padding:20px;display:none;">
+            <table class="easyui-datagrid" style="width:400px;height:250px"
+                   data-options="fitColumns:true,singleSelect:true">
+                <tbody>
+                <div  style="background-color: #8d8d8d;font-size: 15px; height: 17px"><p>已有座驾 </p></div>
+                 <img src="" />
+                <div  style="background-color: #8d8d8d;font-size:  15px; height: 17px">期望座驾 </div>
+                <div >
+                    <td ><img src="" /></td>
+                </div>
+                </tbody>
+
+            </table>
+        </div>
+        <div title="我的活动" data-options="plain:true,border:false" style="overflow:auto;padding:20px;display:none;">
+            <table class="easyui-datagrid" style="width:400px;height:250px"
+                   data-options="url:'/myActivity',fitColumns:true,singleSelect:true">
+
+            </table>
+        </div>
+        <div title="我的积分" data-options="plain:true,border:false" style="padding:20px;display:none;">
+            <table class="easyui-datagrid" style="width:400px;height:250px"
+                   data-options="url:'datagrid_data/my',fitColumns:true,singleSelect:true">
+
+            </table>
+        </div>
+        <div title="资讯收藏" data-options="plain:true,border:false" style="padding:20px;display:none;">
+            tab3
+        </div>
+        <div title="关注车型" data-options="plain:true,border:false" style="padding:20px;display:none;">
+            <table class="easyui-datagrid" style="width:400px;height:250px"
+                   data-options="url:'datagrid_data.json',fitColumns:true,singleSelect:true">
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    function fromatCreateTime(v,r,i) {
+        return moment(new Date(v)).format("YYYY-MM-DD");
+    }
+</script>

@@ -1,0 +1,89 @@
+<div xmlns:th="http://www.w3.org/1999/xhtml">
+
+    <table id="dg_bm" class="easyui-datagrid"
+           data-options="url:'/member/brandCar',fitColumns:true,singleSelect:true ,pagination:true,rownumbers:true">
+        <thead >
+        <tr>
+            <th   data-options="field:'id',width:100,hidden:true">序号</th>
+            <th data-options="field:'name',width:100 ,align:'center'">品牌名称</th>
+            <th data-options="field:'name',width:100 ,align:'center'">品牌代码</th>
+            <th data-options="field:'logoUrl',width:100,align:'center',formatter:fromatlogo">logo</th>
+            <th data-options="field:'createTime',width:100,align:'center',formatter:fromatCreateTime">创建时间</th>
+            <th data-options="field:'num',width:100,align:'center',formatter:fromatCaoZuo">操作</th>
+        </tr>
+        </thead>
+        <div id="tb">
+            <select id="cc" class="easyui-combobox" name="countryId" style="width:200px;">
+                <option value="">请选择国家</option>
+                <option value="" th:each="car:${cars}"  th:value="${car.countryId}" th:text="${car.countryName}">aitem1</option>
+            </select>
+            <input name="name" type="text" placeholder="品牌/品牌代码"/>
+            <a  href="#"  class="easyui-linkbutton" data-options="iconCls:'icon-search',plan:true,onClick:qurey"></a>
+            <a  href="#" id="addBrand" class="easyui-linkbutton" data-options="iconCls:'icon-add',plan:true,return:true,onClick:addBrand"></a>
+            <a  href="#" id="updateBrand" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plan:true,return:false,onClick:updateBrand"></a>
+            <a  href="#" id="delBrand" class="easyui-linkbutton" data-options="iconCls:'icon-cancel',plan:true,return:false,onClick:delBrand"></a>
+        </div>
+    </table>
+
+
+</div>
+<script>
+    $("#dg_bm").datagrid({
+        toolber:'#tb'
+    });
+    function fromatlogo(v ,r,i) {
+        return "<img src='/upload/"+v+"' style='height: 30px;width: 30px;'/>"
+    }
+    function fromatCaoZuo(v ,r,i) {
+        return "<button type='button' onclick='updateBrand'>编辑</button>  <button type='button' id='delBrand' onclick='delBrand'>删除</button>"
+    }
+    function fromatCreateTime(v ,r,i) {
+        var dd = new Date(v*1000);
+        return moment(dd).format("YYYY年MM月DD日");
+    }
+    function qurey() {
+        $("#dg_bm").datagrid('load',{
+            countryId:$("[name='countryId']").val(),
+            name:$("[name='name']").val()
+        })
+    }
+    function addBrand() {
+        $('#dg_bm').dialog({
+            title: '添加',
+            width: 400,
+            height: 300,
+            closed: false,
+            cache: false,
+            href: 'addBrand',
+            modal: true,
+            region: "center"
+        });
+    }
+    function updateBrand(v ,r,i) {
+        var brand = $("#dg_bm").datagrid('getSelected');
+        $('#dg_bm').dialog({
+            title: '编辑',
+            width: 400,
+            height: 300,
+            closed: false,
+            cache: false,
+            href: '/valid/updateBrand?name='+brand.name+"&logoUrl="+brand.logoUrl+"&id="+brand.id,
+            modal: true
+        });
+    }
+    function delBrand(v ,r,i) {
+        var brand = $("#dg_bm").datagrid('getSelected');
+        $.ajax({
+            url: "/valid/delBrand?id="+brand.id,    //请求的url地址
+            type: "POST",   //请求方式
+            success : function (data) {
+                if (data=='1'){
+                    alert("删除成功");
+                    $('#dg_bm').datagrid('reload');
+                }else {
+                    alert("删除失败");
+                }
+            }
+        })
+    }
+</script>

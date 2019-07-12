@@ -41,7 +41,7 @@ public class ShiroConfig {
         filterFactoryBean.setLoginUrl("/");
         filterFactoryBean.setUnauthorizedUrl("/unauth");//无权访问时的页面
         HashMap<String, String> map = new HashMap<>();
-        map.put("/valid/**","authc");//只有登录后才可以访问的网页
+       /* map.put("/authc/**","authc");//只有登录后才可以访问的网页*/
         filterFactoryBean.setFilterChainDefinitionMap(map);//设置拦截器
         return filterFactoryBean;
     }
