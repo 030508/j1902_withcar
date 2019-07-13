@@ -1,5 +1,6 @@
 package com.qf.j1902.mapper;
 
+import com.qf.j1902.pojo.Car;
 import com.qf.j1902.pojo.MemberCar;
 import com.qf.j1902.pojo.MemberCarExample;
 import java.util.List;
@@ -29,4 +30,5 @@ public interface MemberCarMapper {
     int updateByPrimaryKeySelective(MemberCar record);
 
     int updateByPrimaryKey(MemberCar record);
+
 }

@@ -86,6 +86,18 @@ public class AdminUserServiceImpl implements AdminUserService {
         adminUserMapper.deleteByPrimaryKey(id);
     }
 
+    @Override
+    //根据用户名修改密码
+    public void updatePasswordByUserName(String password, String username) {
+        AdminUser adminUser = new AdminUser();
+        adminUser.setPassword(password);
+        AdminUserExample adminUserExample = new AdminUserExample();
+        adminUserExample.createCriteria().andUsernameEqualTo(username);
+        adminUserMapper.updateByExampleSelective(adminUser,adminUserExample);
+
+
+    }
+
 
 }
 

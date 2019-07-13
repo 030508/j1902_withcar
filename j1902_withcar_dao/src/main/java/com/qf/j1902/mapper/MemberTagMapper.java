@@ -29,4 +29,6 @@ public interface MemberTagMapper {
     int updateByPrimaryKeySelective(MemberTag record);
 
     int updateByPrimaryKey(MemberTag record);
+
+    List<String> findTagNamesByMemberId(Long id);
 }

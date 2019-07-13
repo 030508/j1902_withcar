@@ -1,7 +1,7 @@
 <h3>管理员列表</h3>
 <hr/>
 <table id="dg" class="easyui-datagrid"
-       data-options="url:'/valid/dealAdminList/',rownumbers:true,toolbar:'#tb',fitColumns:true,singleSelect:false,pagination:true">
+       data-options="url:'/valid/dealAdminList/',rownumbers:true,toolbar:'#tb',fitColumns:true,singleSelect:true,pagination:true">
     <thead>
     <div id="tb">
         <input name="name" placeholder="管理员姓名">
@@ -12,7 +12,7 @@
         <th data-options="field:'id',hidden:true,width:100">序号</th>
         <th data-options="field:'name',width:100">管理员姓名</th>
         <th data-options="field:'username',width:100">登录账号</th>
-        <th data-options="field:'isSuper',width:100,formatter:formatStatu">角色</th>
+        <th data-options="field:'rolename',width:100">角色</th>
         <th data-options="field:'opreator',width:100,align:'right',formatter:formatOper">操作</th>
     </tr>
     </thead>
@@ -31,6 +31,7 @@
         var str="<div><button style='float: left' onclick='editmanager(this)'>编辑</button><button style='margin-left: 8px' onclick='deleteadmin(this)'>删除</button></div>";
         return str;
     }
+    //删除管理员
     function deleteadmin() {
             var brand = $("#dg").datagrid('getSelected');
             $.ajax({
@@ -38,7 +39,8 @@
                 type: "POST",   //请求方式
                 success : function (data) {
                     if (data==1){
-                        $('#dg').datagrid('reload');}else {
+                        $('#dg').datagrid('reload');}
+                        else {
                         alert("删除失败!");
                     }
                 }
@@ -73,13 +75,13 @@
         });
     }
 
-
-    function formatStatu(v,r,i) {
-        if (v==1){
-            return "超级管理员";
-        }
-        else {return "管理员";}
-    }
+//列方法  根据数字显示
+//    function formatStatu(v,r,i) {
+//        if (v==1){
+//            return "超级管理员";
+//        }
+//        else {return "管理员";}
+//    }
 </script>
 
 

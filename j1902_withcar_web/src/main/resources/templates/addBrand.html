@@ -1,0 +1,98 @@
+<style>
+    .file-box{
+        display: inline-block;
+        position: relative;
+        padding: 3px 5px;
+        overflow: hidden;
+        color:#fff;
+        background-color: #ccc;
+    }
+    .file-btn{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        outline: none;
+        background-color: transparent;
+        filter:alpha(opacity=0);
+        -moz-opacity:0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    }
+</style>
+<div>
+    <form id="ff_addBrand" method="post"  role="form"  enctype="multipart/form-data">
+        <div>
+            品牌名称:<input name="brandName" type="text" class="easyui-textbox"  style="width:200px">
+        </div>
+        <div style="padding-top: 15px">
+            品牌logo:<button type="button"  class="file-box"><input name="image" type="file" class="file-btn" onchange="xmTanUploadImg(this)"/>上传文件</button><br/>
+            <div align="center">    <img id="image" src="/js/jquery-easyui-1.5/themes/icons/large_picture.png" style="width: 130px; height: 130px"/></div>
+        </div>
+    </form>
+    <div style="position: relative;top: 10px;  "  align="center" >
+        <button type="reset" onclick="quxiao()" >取消</button>
+        <button type="button" onclick="tijao()">提交</button>
+    </div>
+</div>
+<script>
+    function quxiao(){
+        $('#ff_addBrand').form('clear');
+    }
+    function tijao(){
+        var formData = new FormData($('#ff_addBrand')[0]);
+        $.ajax({
+            url: "/valid/addBrandreslt",    //请求的url地址
+            dataType: "json",   //返回格式为json
+            async: true,//请求是否异步，默认为异步，这也是ajax重要特性
+            data: formData,    //参数值
+            type: "POST",   //请求方式
+            processData: false,  //tell jQuery not to process the data
+            contentType: false,  //tell jQuery not to set contentType
+            success : function (data) {
+                if (data=='1'){
+                    $("#dg_bm").dialog("close");
+                    $('#dg_bm').datagrid('reload');
+                   /* $('#dg_bm').datagrid('reload');
+                    $(".tree-title:contains('品牌管理')").parent().click();*/
+
+                }else {
+                    alert("失败");
+                }
+
+            }
+
+        })
+       /* alert("122121");
+        $('#ff_addBrand').form({
+            url:"/valid/addBrandreslt",
+            success:function(data){
+                alert(data);
+                if (data == '1') {
+                    alert("添加成功");
+                }else {
+                    alert("添加失败");
+                }
+            },
+            error:function () {
+                alert("添加失败");
+            }
+        });
+        $('#ff').submit();*/
+    }
+
+
+
+    function xmTanUploadImg(obj) {
+        var  file= obj.files[0];
+        var reader = new FileReader();
+        reader.onloadstart;
+        reader.onload=function (ev) {
+            var img = document.getElementById("image");
+            img.src=ev.target.result;
+            console.log(img.src);
+        }
+        reader.readAsDataURL(file);
+    }
+</script>

@@ -1,14 +1,14 @@
-<div>
+<div xmlns:th="http://www.w3.org/1999/xhtml">
     <h2>添加管理员</h2>
 <hr/>
     <form id="addAdminff" method="post">
         用 户 名:<input class="easyui-validatebox" type="text" name="username"  data-options="required:true"/><br/><br/>
         密    码:<input id="password1" type="password" name="password" data-options="required:true" iconWidth="28"/><br/><br/>
         密码确认:<input  id="password2"  data-options="required:true"  type="password" /><br/><br/>
-        所属角色:<select class="easyui-combobox" data-options="required:true" name="isSuper" style="width:200px;">
-        <option data-options="required:true">请选择角色</option>
-        <option value="1">超级管理员</option>
-        <option value="0">普通管理员</option>
+        所属角色:<select name="roleid" class="easyui-combobox" data-options="iconCls:'icon-man'"><br/>
+        <option>选择角色</option>
+        <option th:each="adminRole:${adminRoles}" th:value="${adminRole.id}" th:text="${adminRole.name}"></option>
+
     </select><br/><br/>
         姓    名:<input data-options="required:true" class="easyui-validatebox" type="text" name="name" /><br/><br/>
         所属部门:<input data-options="required:true" class="easyui-validatebox" type="text" name="dept" /><br/><br/>

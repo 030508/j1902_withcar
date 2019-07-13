@@ -16,4 +16,5 @@ public interface AdminMenuService {
     void addAdminMenu(AdminMenuAuth adminMenu); //添加菜单（权限信息）
     void updateStatusById(Byte status, Short id); //修改菜单状态（权限状态）
 
+    AdminMenuAuth findAdminMenuByMenuId(Integer menuId);
 }

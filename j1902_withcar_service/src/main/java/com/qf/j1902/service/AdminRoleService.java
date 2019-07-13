@@ -12,4 +12,10 @@ public interface AdminRoleService {
     void  deleteAdminRoleById(Integer id);  //根据id删除角色
     void  addAdminRoleById(AdminRole adminRole);  //添加角色信息
     void  updateDeletedById(Integer id, Integer deleted); //根据id修改状态（是否有效）
+
+    Integer findRoleIdByRoleName(String rolename);
+
+    void addRole(AdminRole adminRole);
+
+    void deleteRoleByRoleName(String rolename);
 }

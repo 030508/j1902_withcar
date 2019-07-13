@@ -7,6 +7,13 @@ public class AdminRole {
 
     private Byte deleted;
 
+    public AdminRole(String name) {
+        this.name = name;
+    }
+
+    public AdminRole() {
+    }
+
     public Integer getId() {
         return id;
     }

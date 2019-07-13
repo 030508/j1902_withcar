@@ -1,21 +1,74 @@
+
 <div>
-    <h3>this is page members</h3>
-    <table class="easyui-datagrid" style="width:400px;height:250px"
-           data-options="url:'/members/list',fitColumns:true,singleSelect:true，pagination：true">
+    <table id="dg_mm" class="easyui-datagrid"
+           data-options="url:'/valid/members/list',fitColumns:true,singleSelect:true ,pagination:true,rownumbers:true">
         <thead>
-        <tr class="tt">
-            <th data-options="field:'code',width:100">序号</th>
+        <tr class="tt"  >
+            <th data-options="field:'iiid',width:100,checkbox:true" >序号</th>
+            <th id="memid" data-options="field:'id',width:100" >序号</th>
             <th data-options="field:'name',width:100">账号</th>
-            <th data-options="field:'price',width:100,align:'right'">昵称</th>
-            <th data-options="field:'price',width:100,align:'right'">姓名</th>
-            <th data-options="field:'price',width:100,align:'right'">性别</th>
-            <th data-options="field:'price',width:100,align:'right'">注册时间</th>
-            <th data-options="field:'price',width:100,align:'right',attributes:{'url':'#'}" >详情</th>
+            <th data-options="field:'nickname',width:100">昵称</th>
+            <th data-options="field:'name',width:100,align:'center'">姓名</th>
+            <th data-options="field:'gender',width:100,align:'center',formatter:formatGender">性别</th>
+            <th data-options="field:'registerTime',width:100,align:'center',formatter:formatCreateTime">注册时间</th>
+            <th id="tdd" data-options="field:'ii',width:100,align:'center',formatter:formatxiangqi">详情</th>
         </tr>
         </thead>
+        <div id="tb">
+            <input name="title" type="text" placeholder="手机号/账号/用户名"/>
+            性别:<select name="gender">
+                   <option value="0">请选择</option>
+                   <option value="1" >男</option>
+                   <option value="2" >女</option>
+                   <option value="3">未知</option>
+              </select>
+            注册时间:<input  id="dd" name="smallTime"  type= "text" class= "easyui-datebox" required ="required"/>
+                <b>-</b>
+                <input  id="btime" name="bigTime"  type= "text" class= "easyui-datebox" required ="required"/>
+            <a  href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search',plan:true,onClick:qurey"></a>
+        </div>
     </table>
 
 </div>
 <script>
-    /*$(".tt").datagrid()*/
+    function qurey() {
+        $("#dg_mm").datagrid('load',{
+            title:$("[name='title']").val(),
+            gender:$("[name='gender']").val(),
+            smallTime:$("[name='smallTime']").val(),
+            bigTime:$("[name='bigTime']").val()
+        })
+    }
+    function formatGender(v,r,i) {  //
+        if (v == 1){
+            return "男" ;
+        } else if (v == 2){
+            return "女";
+        } else {
+            return "未知";
+        }
+        
+    }
+    function formatCreateTime(v,r,i) {
+        return moment(v).format("YYYY年MM月DD日");
+    }
+    function formatxiangqi(v,r,i) {
+        return "<a href='#' onclick='xaingqing(this)' >详情</a>";
+    }
+    function xaingqing(r) {
+        var row = $("#dg_mm").datagrid("getSelected");
+        var tab = $("#tabls").tabs("getTab",r.text);  //通过标题获取索引
+        if (tab) {//判断面板
+            $("#tabls").tabs("select",r.text);//已存在获取焦点
+        }else {
+            $('#tabls').tabs('add', {
+                title: "详情",
+                selected: true,
+                closable: true,
+                href:"/valid/members/details?pid="+row.id
+            })
+
+        }
+    }
+
 </script>

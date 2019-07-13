@@ -7,6 +7,14 @@ public class AdminUserRole {
 
     private Integer roleId;
 
+    public AdminUserRole() {
+    }
+
+    public AdminUserRole(Integer userId, Integer roleId) {
+        this.userId = userId;
+        this.roleId = roleId;
+    }
+
     public Integer getId() {
         return id;
     }

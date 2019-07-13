@@ -1,0 +1,89 @@
+<div xmlns:th="http://www.w3.org/1999/xhtml">
+
+    <table id="dg_cs" class="easyui-datagrid"
+           data-options="url:'/valid/carModelList',fitColumns:true,singleSelect:true ,pagination:true,rownumbers:true">
+        <thead >
+        <tr>
+            <th data-options="field:'iiid',width:100,checkbox:true" ></th>
+            <th data-options="field:'id',width:100,hidden:true">序号</th>
+            <th data-options="field:'name',width:100 ,align:'center'">车系名称</th>
+            <th data-options="field:'makeName',width:100 ,align:'center'">品牌名称</th>
+            <th data-options="field:'bodyFormName',width:100 ,align:'center'">类型</th>
+            <th data-options="field:'numm',width:100,align:'center',formatter:fromatCaoZuo">操作</th>
+        </tr>
+        </thead>
+        <div id="tb">
+            品牌:<select id="cc" class="easyui-combobox" name="countryId" style="width:200px;">
+                <option value="">请选择品牌</option>
+                <option value="" th:each="carM:${carModels}"  th:value="${carM.makeId}" th:text="${carM.makeName}">aitem1</option>
+            </select>
+            类型:<select id="c" class="easyui-combobox" name="bodyForm" style="width:200px;">
+            <option value="">请选择类型</option>
+            <option value="" th:each="carMo:${carModels}"  th:value="${carMo.bodyForm}" th:text="${carMo.bodyFormName}">aitem1</option>
+             </select>
+            <input name="name" type="text" placeholder="车系名称"/>
+            <a  href="#"  class="easyui-linkbutton" data-options="iconCls:'icon-search',plan:true,onClick:qurey"></a>
+            <a  href="#" id="addBrand" class="easyui-linkbutton" data-options="iconCls:'icon-add',plan:true,return:true,onClick:addCarSeries"></a>
+            <a  href="#" id="updateBrand" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plan:true,return:false,onClick:updateCarSeries"></a>
+            <a  href="#" id="delBrand" class="easyui-linkbutton" data-options="iconCls:'icon-cancel',plan:true,return:false,onClick:delCarSeries"></a>
+        </div>
+    </table>
+
+
+</div>
+<script>
+    $("#dg_cs").datagrid({
+        toolber:'#tb'
+    });
+
+    function fromatCaoZuo(v ,r,i) {
+        return "<button type='button' onclick='updateBrand'>编辑</button>  <button type='button' id='delBrand' onclick='delBrand'>删除</button>"
+    }
+
+    function qurey() {
+        $("#dg_cs").datagrid('load', {
+            countryId:$("[name='countryId']").val(),
+            bodyForm:$("[name='bodyForm']").val(),
+            name:$("[name='name']").val()
+        })
+    }
+    function addCarSeries() {
+        $('#dg_cs').dialog({
+            title: '添加',
+            width: 400,
+            height: 300,
+            closed: false,
+            cache: false,
+            href: 'add_car_series',
+            modal: true,
+            region: "center"
+        });
+    }
+    function updateCarSeries() {
+        var brand = $("#dg_cs").datagrid('getSelected');
+        $('#dg_cs').dialog({
+            title: '编辑',
+            width: 400,
+            height: 300,
+            closed: false,
+            cache: false,
+            href: '/valid/update_car_series?id='+brand.id+'&name='+brand.name+"&makeName="+brand.makeName+'&bodyFormName='+brand.bodyFormName ,
+            modal: true
+        });
+    }
+    function delCarSeries(v ,r,i) {
+        var brand = $("#dg_cs").datagrid('getSelected');
+        $.ajax({
+            url: "/valid/delCarSeries?id="+brand.id,    //请求的url地址
+            type: "POST",   //请求方式
+            success : function (data) {
+                if (data=='1'){
+                    alert("删除成功");
+                    $('#dg_cs').datagrid('reload');
+                }else {
+                    alert("删除失败");
+                }
+            }
+        })
+    }
+</script>

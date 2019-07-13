@@ -7,10 +7,10 @@
         <div>
             密  码:<input class="easyui-validatebox" type="text" value="*********" readonly />
         </div><br/>
-        角色:<select id="cc" class="easyui-combobox" name="isSuper"   data-options="iconCls:'icon-man'"><br/>
-            <option></option>
-            <option value="0">管理员</option>
-            <option value="1">超级管理员</option>
+        角色:<select id="cc" name="roleid" class="easyui-combobox" data-options="iconCls:'icon-man'"><br/>
+            <option>选择角色</option>
+            <option th:each="adminRole:${adminRoles}" th:value="${adminRole.id}" th:text="${adminRole.name}"></option>
+
         </select>
         <br/><br/>
         <div>

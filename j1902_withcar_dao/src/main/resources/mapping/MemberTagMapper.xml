@@ -193,4 +193,10 @@
       create_time = #{createTime,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
+  <select id="findTagNamesByMemberId" resultType="String">
+    SELECT  t.name FROM
+    member_tag mt,
+    tag t
+    WHERE  mt.tag_id = t.id AND mt.member_id = #{id}
+  </select>
 </mapper>
