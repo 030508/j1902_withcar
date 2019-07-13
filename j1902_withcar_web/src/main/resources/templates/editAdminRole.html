@@ -1,0 +1,45 @@
+<div xmlns:th="http://www.w3.org/1999/xhtml" id="sssssss">
+    <h2 >权限调整>></h2>
+    <hr/>
+    <form id="editroleff" method="post">
+        角色名称>:<input style="width: 260px;height: 30px;border: hidden;" name="rolename" th:value="${oldrolename}"  readonly>
+        <input style="height: 20px;width: 2000px;background-color: #bababa;" value="分配权限>>>"/>
+        <div style="background-color: #D4D4D4;height: 60px;border-bottom: solid;border-bottom-width: 1px;border-bottom-color: skyblue" th:each="action:${actions}">
+            <p style="font-size: 15px;" th:text="${action}"></p>
+            <div th:each="menu:${menuAuths}">
+                <div style="float: left;margin-left: 20px" th:if="${menu.action}==${action}"><input name="menuid" type="checkbox" th:value="${menu.id}"/><span th:text="${menu.name}"></span></div>
+
+            </div>
+        </div>
+    </form>
+    <button style="height: 30px;width: 50px;align-content: center;background-color: darkolivegreen;" onclick="updateAddRole()">保存</button>
+</div>
+<script>
+    //页面加载就运行的方法
+    $(document).ready(function(){
+        var rolename=$("[name='rolename']").val();
+        $.ajax({
+            url: "/valid/shuaxineditrole?rolename="+rolename,    //请求的url地址
+            type: "POST",   //请求方式
+            success : function (data) {
+                for (var id in data){
+                    $("[value='"+id+"']").attr("checked",true);
+                }
+            }
+        })
+    });
+    //保存修改角色权限
+    function updateAddRole() {
+        $('#editroleff').form({
+            url:"/valid/dealeditrole",
+            type:"POST",
+            success:function(data){
+                $("#tabls").tabs("close","编辑角色");
+                $("#rolelistdg").datagrid('reload');
+                $(".tree-title:contains('角色管理')").parent().click();//层次选择器
+            }
+        });
+        $('#editroleff').submit();
+    }
+
+</script>

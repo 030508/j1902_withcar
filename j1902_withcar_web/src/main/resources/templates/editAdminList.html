@@ -1,0 +1,55 @@
+<div xmlns:th="http://www.w3.org/1999/xhtml">
+    <h3>编辑管理员</h3>
+    <hr/>
+
+    <form id="ff" method="post" style="margin: auto">
+        用户名:<input type="text" th:value="${username}" name="username" readonly/>
+        <div>
+            密  码:<input class="easyui-validatebox" type="text" value="*********" readonly />
+        </div><br/>
+        角色:<select id="cc" name="roleid" class="easyui-combobox" data-options="iconCls:'icon-man'"><br/>
+            <option>选择角色</option>
+            <option th:each="adminRole:${adminRoles}" th:value="${adminRole.id}" th:text="${adminRole.name}"></option>
+
+        </select>
+        <br/><br/>
+        <div>
+            姓 名:<input class="easyui-validatebox" th:value="${name}" type="text" name="name"  />
+        </div><br/>
+        <div>
+            所属部门:<input class="easyui-validatebox" th:value="${dept}" type="text" name="dept" />
+        </div><br/>
+        <div>
+            手 机:<input class="easyui-validatebox" type="text" th:value="${phone}" name="phone" data-options="validType:'phone'" />
+        </div><br/>
+        <div>
+           邮 箱:<input class="easyui-validatebox" type="text"th:value="${email}"  name="email" data-options="validType:'email'" />
+        </div><br/>
+        <div>
+            备 注:<textarea class="easyui-validatebox" type="text" th:value="${remark}" name="remark"  />
+        </div><br/>
+    </form>
+    <button onclick="quxiao()">取消</button><button onclick="save()" style="margin-left: 120px">保存</button>
+</div>
+<script>
+    function quxiao() {
+        $("#tabls").tabs("close","编辑会员信息");
+        $(".tree-title:contains('管理员列表')").parent().click();
+    }
+    function save() {
+        $('#ff').form({
+                url:"/valid/saveAdmin",
+                type:"POST",
+        success:function(data){
+            $('#dg').datagrid('reload');
+            $("#tabls").tabs("close","编辑会员信息");
+            $(".tree-title:contains('管理员列表')").parent().click();
+        }
+    });
+        $('#ff').submit();
+    }
+
+
+
+
+</script>

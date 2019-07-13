@@ -1,0 +1,53 @@
+<div xmlns:th="http://www.w3.org/1999/xhtml">
+    <h2>添加管理员</h2>
+<hr/>
+    <form id="addAdminff" method="post">
+        用 户 名:<input class="easyui-validatebox" type="text" name="username"  data-options="required:true"/><br/><br/>
+        密    码:<input id="password1" type="password" name="password" data-options="required:true" iconWidth="28"/><br/><br/>
+        密码确认:<input  id="password2"  data-options="required:true"  type="password" /><br/><br/>
+        所属角色:<select name="roleid" class="easyui-combobox" data-options="iconCls:'icon-man'"><br/>
+        <option>选择角色</option>
+        <option th:each="adminRole:${adminRoles}" th:value="${adminRole.id}" th:text="${adminRole.name}"></option>
+
+    </select><br/><br/>
+        姓    名:<input data-options="required:true" class="easyui-validatebox" type="text" name="name" /><br/><br/>
+        所属部门:<input data-options="required:true" class="easyui-validatebox" type="text" name="dept" /><br/><br/>
+        手    机:<input data-options="required:true" class="easyui-validatebox" type="text" name="phone" /><br/><br/>
+        邮    箱:<input  class="easyui-validatebox" type="text" name="email"  data-options="validType:'email',required:true" /><br/><br/>
+        备    注:<br/>
+        <textarea data-options="required:true" name="remark" style="margin-left: 30px;width: 200px;height: 70px;border: solid;background-color: #95B8E7"></textarea>
+    </form>
+    <button onclick="quxiaoAddAdmin()">取消</button><button onclick="dealAddAdmin()" style="margin-left: 120px">确认添加</button>
+</div>
+<script>
+    //验证两次密码输入是否一致
+    $("#password2").blur( function () {
+        var password1=$('#password1').val();
+        var password2=$('#password2').val();
+        if(password1==password2){
+        }else {
+            $("#password1").val("");
+            $("#password2").val("");
+            $("#password1").focus();
+        }
+    } );
+    //取消
+    function quxiaoAddAdmin() {
+        $("#tabls").tabs("close","添加管理员列表");//关闭当前选项卡
+        $(".tree-title:contains('管理员列表')").parent().click();//打开父选项卡
+    }
+    //处理添加
+    function dealAddAdmin() {
+        $('#addAdminff').form({
+            url:"/valid/dealaddAdmin",
+            type:"POST",
+            success:function(data){
+                $("#tabls").tabs("close","添加管理员列表");
+                $("#dg").datagrid('reload');
+                $(".tree-title:contains('管理员列表')").parent().click();//层次选择器
+            }
+        });
+        $('#addAdminff').submit();
+    }
+
+</script>

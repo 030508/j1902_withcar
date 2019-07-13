@@ -6,6 +6,7 @@ import com.qf.j1902.pojo.AdminUser;
 import com.qf.j1902.pojo.AdminUserExample;
 import com.qf.j1902.service.AdminUserService;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -23,6 +24,18 @@ public class AdminUserServiceImpl implements AdminUserService {
     }
 
     @Override
+    public List<AdminUser> findAllAdminUser(Integer page, Integer rows, String name) {
+        AdminUserExample adminUserExample = new AdminUserExample();
+        if (!StringUtils.isEmpty(name)){
+        AdminUserExample.Criteria criteria = adminUserExample.createCriteria();
+        criteria.andNameLike("%"+name+"%");
+        }
+        PageHelper.startPage(page,rows);
+        List<AdminUser> adminUsers = adminUserMapper.selectByExample(adminUserExample);
+        return adminUsers;
+    }
+
+    //分页查询
     public List<AdminUser> findAllAdminUser(Integer page, Integer rows) {
         AdminUserExample adminUserExample = new AdminUserExample();
         PageHelper.startPage(page,rows);
@@ -55,17 +68,35 @@ public class AdminUserServiceImpl implements AdminUserService {
 
     }
 
+    @Override
+    public void updetaOneByName(AdminUser adminUser) {
+        String username = adminUser.getUsername();
+        AdminUserExample adminUserExample = new AdminUserExample();
+        adminUserExample.createCriteria().andUsernameEqualTo(username);
+        adminUserMapper.updateByExampleSelective(adminUser,adminUserExample);
+    }
 
-    //分页查询
+    @Override
+    public void insertAdminUser(AdminUser adminUser) {
+        adminUserMapper.insert(adminUser);
+    }
+
+    @Override
+    public void deleteAdminUser(int id) {
+        adminUserMapper.deleteByPrimaryKey(id);
+    }
+
+    @Override
+    //根据用户名修改密码
+    public void updatePasswordByUserName(String password, String username) {
+        AdminUser adminUser = new AdminUser();
+        adminUser.setPassword(password);
+        AdminUserExample adminUserExample = new AdminUserExample();
+        adminUserExample.createCriteria().andUsernameEqualTo(username);
+        adminUserMapper.updateByExampleSelective(adminUser,adminUserExample);
 
 
-
-
-
-
-
-
-
+    }
 
 
 }

@@ -3,9 +3,13 @@ package com.qf.j1902.service;
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.junit.Test;
 import org.omg.CORBA.DATA_CONVERSION;
+import org.springframework.http.HttpRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.crypto.Data;
+import javax.xml.transform.Source;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -38,9 +42,8 @@ public class DateTest {
         System.out.println(dateformat.format(date));*/
         Integer integer = Integer.valueOf(String.valueOf(new Date().getTime()).substring(0, 10));//创建时间并进行
 
-
         Date nedate = new Date(new Long(integer)*1000);   //把Integer 转换成
-
+        System.out.println(nedate);
         DateFormat dateformat = new SimpleDateFormat("yyy-MM-dd HH:mm:ss");
         System.out.println(dateformat.format(nedate));
     }
@@ -62,10 +65,20 @@ public class DateTest {
         System.out.println(nedate.getTime());
         System.out.println(oldDate.getTime());
     }
+<<<<<<< HEAD
 
     @Test
     public void  ipii(){
 
     }
 
+=======
+    @Test
+    public void iptest() throws UnknownHostException {
+        InetAddress inetAddress=InetAddress.getLocalHost();
+        String ip=inetAddress.getHostAddress().toString();//获得本机Ip
+        System.out.println(ip);
+
+    }
+>>>>>>> github/master
 }

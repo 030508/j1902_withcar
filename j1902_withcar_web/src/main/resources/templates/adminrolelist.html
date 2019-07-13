@@ -1,0 +1,64 @@
+<h3>角色管理列表</h3>
+<hr/>
+<table id="rolelistdg" class="easyui-datagrid" data-options="url:'/valid/dealrolelist',rownumbers:true,fitColumns:true,singleSelect:false">
+    <thead>
+    <div id="rolelistdd">
+        <a class="easyui-linkbutton"  data-options="iconCls:'icon-add',plain:true,onClick:addRole" style="margin-left: 50px">新增</a>
+        <a class="easyui-linkbutton"  data-options="iconCls:'icon-edit',plain:true,onClick:editRole" style="margin-left: 200px">编辑</a>
+        <a class="easyui-linkbutton"  data-options="iconCls:'icon-cancel',plain:true,onClick:deleteRole" style="margin-left: 200px">删除</a>
+    </div>
+    <tr>
+        <th data-options="checkbox:true,field:'meswe'"></th>
+        <th data-options="field:'rolename',width:100">角色名称</th>
+        <th data-options="field:'rolecount',width:100">人数</th>
+    </tr>
+    </thead>
+</table>
+<script>
+    $('#rolelistdg').datagrid({
+        toolbar: '#rolelistdd'
+    });
+    //添加方法
+    function addRole() {
+        var tab = $("#tabls").tabs("getTab", "添加角色");  //通过标题获取索引
+        if (tab) {//判断面板是否存在
+            $("#tabls").tabs("select","添加角色");}//已存在获取焦点
+        $('#tabls').tabs('add',{
+            title: "添加角色",
+            selected: true,
+            closable: true,
+            href:"/valid/addAdminRole" //请 求资源地址
+            //...
+        });
+    }
+    //删除方法
+    function deleteRole() {
+        var brand = $("#rolelistdg").datagrid('getSelected');
+        $.ajax({
+            url: "/valid/deleteadminrole?rolename="+brand.rolename,    //请求的url地址
+            type: "POST",   //请求方式
+            success : function (data) {
+                if (data==1){
+                    $('#rolelistdg').datagrid('reload');}
+                else {
+                    alert("删除失败!");
+                }
+            }
+        })
+        
+    }
+    //编辑方法
+    function editRole() {
+        var row=$("#rolelistdg").datagrid("getSelected");
+        var rolename=row.rolename;
+        var tab = $("#tabls").tabs("getTab", "编辑角色");  //通过标题获取索引
+        if (tab) {//判断面板是否存在
+            $("#tabls").tabs("select","编辑角色");}//已存在获取焦点
+        $('#tabls').tabs('add',{
+            title: "编辑角色",
+            selected: true,
+            closable: true,
+            href:"/valid/editAdminRole?rolename="+rolename//请 求资源地址
+        });
+    }
+</script>

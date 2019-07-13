@@ -1,6 +1,7 @@
 package com.qf.j1902.service.impl;
 
 import com.qf.j1902.mapper.AdminRoleMapper;
+import com.qf.j1902.mapper.AdminRoleMenuMapper;
 import com.qf.j1902.mapper.AdminUserMapper;
 import com.qf.j1902.mapper.AdminUserRoleMapper;
 import com.qf.j1902.pojo.*;
@@ -20,6 +21,8 @@ public class AdminRoleServiceImpl implements AdminRoleService {
     private AdminUserRoleMapper adminUserRoleMapper;
     @Resource
     private AdminRoleMapper adminRoleMapper ;
+    @Resource
+    private AdminRoleMenuMapper adminRoleMenuMapper;
 
     @Override
     public List<AdminRole> findAll() {
@@ -31,25 +34,17 @@ public class AdminRoleServiceImpl implements AdminRoleService {
     @Override
     public AdminRole findAdminRolesByUserName(String username) {
         AdminUserExample adminUserExample = new AdminUserExample();
-        AdminUserExample.Criteria criteria = adminUserExample.createCriteria();
-        criteria.andUsernameEqualTo(username);
+        adminUserExample.createCriteria().andUsernameEqualTo(username);
         List<AdminUser> adminUsers = adminUserMapper.selectByExample(adminUserExample);
-        List<Integer> list = new ArrayList<>();
-        for (AdminUser a: adminUsers) {
-            Integer id = a.getId();
-            list.add(id);
-        }
-        for (Integer integer:list) {
-            AdminUserRoleExample adminUserRoleExample = new AdminUserRoleExample();
-            AdminUserRoleExample.Criteria criteria1 = adminUserRoleExample.createCriteria();
-            criteria1.andUserIdEqualTo(integer);
-            List<AdminUserRole> adminUserRoles = adminUserRoleMapper.selectByExample(adminUserRoleExample);
-            for (AdminUserRole adminUserRole: adminUserRoles) {
-                Integer roleId = adminUserRole.getRoleId();
-            }
-        }
-
-        return null;
+        AdminUser adminUser = adminUsers.get(0);
+        Integer adminUserId = adminUser.getId();
+        AdminUserRoleExample adminUserRoleExample = new AdminUserRoleExample();
+        adminUserRoleExample.createCriteria().andUserIdEqualTo(adminUserId);
+        List<AdminUserRole> adminUserRoles = adminUserRoleMapper.selectByExample(adminUserRoleExample);
+        AdminUserRole adminUserRole = adminUserRoles.get(0);
+        Integer roleId = adminUserRole.getRoleId();
+        AdminRole adminRole = adminRoleMapper.selectByPrimaryKey(roleId);
+        return adminRole;
     }
 
     @Override
@@ -65,5 +60,38 @@ public class AdminRoleServiceImpl implements AdminRoleService {
     @Override
     public void updateDeletedById(Integer id, Integer deleted) {
 
+    }
+
+    @Override
+    public Integer findRoleIdByRoleName(String rolename) {
+        AdminRoleExample adminRoleExample = new AdminRoleExample();
+        adminRoleExample.createCriteria().andNameEqualTo(rolename);
+        List<AdminRole> list = adminRoleMapper.selectByExample(adminRoleExample);
+        AdminRole adminRole = list.get(0);
+        Integer id = adminRole.getId();
+        return id;
+
+    }
+
+    @Override
+    public void addRole(AdminRole adminRole) {
+        adminRoleMapper.insert(adminRole);
+    }
+
+    @Override
+    public void deleteRoleByRoleName(String rolename) {
+        if(true){
+            AdminRoleExample adminRoleExample = new AdminRoleExample();
+            adminRoleExample.createCriteria().andNameEqualTo(rolename);
+            List<AdminRole> list = adminRoleMapper.selectByExample(adminRoleExample);
+            AdminRole adminRole = list.get(0);
+            Integer roleid = adminRole.getId();
+            AdminRoleMenuExample adminRoleMenuExample = new AdminRoleMenuExample();
+            adminRoleMenuExample.createCriteria().andRoleIdEqualTo(roleid);
+            adminRoleMenuMapper.deleteByExample(adminRoleMenuExample);
+        }
+        AdminRoleExample adminRoleExample = new AdminRoleExample();
+        adminRoleExample.createCriteria().andNameEqualTo(rolename);
+        adminRoleMapper.deleteByExample(adminRoleExample);
     }
 }

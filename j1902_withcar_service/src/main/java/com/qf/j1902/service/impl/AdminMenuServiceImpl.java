@@ -26,15 +26,12 @@ public class AdminMenuServiceImpl implements AdminMenuService {
 
     @Override
     public Set<AdminMenuAuth> findAdminMenusByUserName(String username) {
-        AdminMenuAuthExample adminMenuAuthExample = new AdminMenuAuthExample();
-        AdminMenuAuthExample.Criteria criteria = adminMenuAuthExample.createCriteria();
-        criteria.andNameEqualTo(username);
-        List<AdminMenuAuth> adminMenuAuths = adminMenuMapper.selectByExample(adminMenuAuthExample);
-        HashSet<AdminMenuAuth> adminMenus = new HashSet<>();
-        for (AdminMenuAuth a:adminMenuAuths) {
-            adminMenus.add(a);
+        List<AdminMenuAuth> adminMenuAuths = adminMenuMapper.findAdminMenusByUserName(username);
+        HashSet<AdminMenuAuth> menuAuths = new HashSet<>();
+        for (AdminMenuAuth adminMenu:adminMenuAuths) {
+            menuAuths.add(adminMenu);
         }
-        return adminMenus;
+        return menuAuths;
     }
 
     @Override
@@ -53,5 +50,15 @@ public class AdminMenuServiceImpl implements AdminMenuService {
         adminMenuMapper.updateByExampleSelective(menuAuth,authExample);
 
 //        adminMenuMapper.updateStatusById(status,id);
+    }
+
+    @Override
+    public AdminMenuAuth findAdminMenuByMenuId(Integer menuId) {
+        short id = menuId.shortValue();
+        AdminMenuAuthExample adminMenuAuthExample = new AdminMenuAuthExample();
+        adminMenuAuthExample.createCriteria().andIdEqualTo(id);
+        List<AdminMenuAuth> adminMenuAuths = adminMenuMapper.selectByExample(adminMenuAuthExample);
+        AdminMenuAuth adminMenuAuth = adminMenuAuths.get(0);
+        return adminMenuAuth;
     }
 }
