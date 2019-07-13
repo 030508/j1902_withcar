@@ -1,0 +1,66 @@
+<div xmlns:th="http://www.w3.org/1999/xhtml">
+    <div id="tt" class="easyui-tabs" style="width:500px;height:500px;"data-options="fit:true">
+        <div title="个人资料" style="padding:20px;display:none;">
+            <form id="personnalziliao" method="post">
+                <font>姓名:</font><font th:text="${adminUser.name}"></font><br/><br/>
+                <font>个人账号:</font><input name="username" th:value="${adminUser.username}" readonly/><br/><br/>
+                <font>手机号:</font><input name="phone" th:value="${adminUser.phone}"/><br/><br/>
+                <font>所属角色:</font><font th:if="${adminUser.isSuper}==1">超级管理员</font>
+                <font th:if="${adminUser.isSuper}==0">管理员</font><br/><br/>
+                <font>邮箱:</font><input name="email" th:value="${adminUser.email}"/><br/><br/>
+                <font>所属部门:</font><font th:text="${adminUser.dept}"></font><br/><br/>
+                </form>
+           <button onclick="personalsave()" style="margin-left: 180px">保存</button>
+        </div>
+        <div title="修改密码" data-options="closable:true" style="overflow:auto;padding:20px;display:none;">
+            <form id="updatePassword" method="post">
+                旧密码:<input name="oldpassword1" id="oldpassword" type="password"/><br/><br/>
+                新密码:<input name="password1" id="newpassword" type="password"><br/><br/>
+                确认新密码:<input name="querenpassword1" id="querenpassword" type="password"><br/><br/>
+            </form>
+            <button onclick="saveUpdatePassword()" style="margin-left: 180px">保存</button>
+        </div>
+    </div>
+</div>
+<script>
+    //处理个人信息保存
+    function personalsave() {
+        $('#personnalziliao').form({
+            url:"/valid/savePersonal",
+            type:"POST",
+            success:function(data){
+                $('#dg').datagrid('reload');
+                alert("修改成功")
+            }
+        });
+        $('#personnalziliao').submit();
+    }
+    //处理保存密码修改
+    function saveUpdatePassword() {
+        $('#updatePassword').form({
+            url:"/valid/saveUpdatePassword",
+            type:"POST",
+            success:function(data){
+                if(data==1){
+                    $("#oldpassword").val("");
+                    $("#newpassword").val("");
+                    $("#querenpassword").val("");
+                    alert("修改成功");
+                }
+                if(data==2){
+                    $("#oldpassword").val("");
+                    $("#oldpassword").focus();
+                    alert("旧密码输入不正确,重新输入");
+                }
+                if (data==3){
+                    $("#newpassword").val("");
+                    $("#querenpassword").val("");
+                    $("#newpassword").focus();
+                    alert("两次密码输入不一致,重新输入");
+                }
+
+            }
+        });
+        $('#updatePassword').submit();
+    }
+</script>

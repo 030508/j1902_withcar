@@ -12,8 +12,7 @@
     <img style="width: 30px;height: 30px;margin-top: 10px" src="http://img3.imgtn.bdimg.com/it/u=3082211982,3357162643&fm=26&gp=0.jpg"><b><font style="margin-top: 10px" size="5">伴我汽车后台管理页</font></b>
     <span style="margin-left: 400px">时间:<span id="createtime"></span></span>
     <span style="margin-left: 100px">用户:<font   th:text=${session.name}>张秦</font></span>
-    <span style="margin-left: 100px">  所属角色:<font th:if="${session.isSuper==1}">超级管理员</font>
-    <font th:if="${session.isSuper==0}">普通管理员</font></span>
+    <span style="margin-left: 100px">  所属角色:<font th:text="${session.adminRoleName}"></font>
     <button style="float: right;margin-left: 30px" onclick="adminlogout()">退出</button>
 
 </div>
@@ -72,7 +71,7 @@
         </div>
         <div title="角色管理">
             <ul  class="easyui-tree">
-                <li data-options="attributes:{'url':'#'}"><span>角色管理</span></li>
+                <li data-options="attributes:{'url':'/valid/adminrolelist'}"><span>角色管理</span></li>
             </ul>
         </div>
         <div title="管理员列表">
@@ -87,7 +86,7 @@
         </div>
         <div title="个人中心">
             <ul  class="easyui-tree">
-                <li data-options="attributes:{'url':'#'}"><span>个人中心</span></li>
+                <li data-options="attributes:{'url':'/valid/personalcenter'}"><span>个人中心</span></li>
             </ul>
         </div>
     </div>

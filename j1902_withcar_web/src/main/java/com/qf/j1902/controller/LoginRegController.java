@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -63,9 +64,14 @@ public class LoginRegController {
                             session.setAttribute("isSuper",isSuper);
                             session.setAttribute(SessionKey.ADMINUSERNAME,loginVo.getLoginName());
                             Set<AdminMenuAuth> menus = adminMenuService.findAdminMenusByUserName(loginVo.getLoginName());
-                            session.setAttribute(SessionKey.ADMINUSERMENUS,menus);
-                            AdminRole role = adminRoleService.findAdminRolesByUserName(loginVo.getLoginName());
-                            session.setAttribute(SessionKey.ADMINROLE,role);
+                            HashSet<String> adminMemuNames = new HashSet<>();
+                            for (AdminMenuAuth adminMenu:menus) {
+                                adminMemuNames.add(adminMenu.getName());
+                            }
+                            session.setAttribute(SessionKey.ADMINUSERMENUS,adminMemuNames);
+                            AdminRole adminRole = adminRoleService.findAdminRolesByUserName(loginVo.getLoginName());
+                            String rolename = adminRole.getName();
+                            session.setAttribute(SessionKey.ADMINROLE,rolename);
                             return "redirect:/valid/main";//如果登录成功返回的页面
                         }
                     }catch (AuthenticationException e){

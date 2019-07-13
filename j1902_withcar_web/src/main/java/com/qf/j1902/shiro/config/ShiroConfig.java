@@ -64,7 +64,6 @@ public class ShiroConfig {
         credentialsMatcher.setHashAlgorithmName("MD5");
         credentialsMatcher.setHashIterations(1024);
         credentialsMatcher.setStoredCredentialsHexEncoded(true);
-        System.out.println(credentialsMatcher.getHashAlgorithmName());
         return credentialsMatcher;
     }
 }

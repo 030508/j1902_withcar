@@ -27,4 +27,5 @@ public interface AdminUserService {
    void insertAdminUser(AdminUser adminUser);
    //根据id删除
    void deleteAdminUser(int id);
+   void updatePasswordByUserName(String password,String username);
 }
