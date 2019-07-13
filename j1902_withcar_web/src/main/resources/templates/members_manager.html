@@ -1,9 +1,10 @@
 
 <div>
     <table id="dg_mm" class="easyui-datagrid"
-           data-options="url:'/valid/members/list',fitColumns:true,singleSelect:false ,pagination:true">
+           data-options="url:'/valid/members/list',fitColumns:true,singleSelect:true ,pagination:true,rownumbers:true">
         <thead>
         <tr class="tt"  >
+            <th data-options="field:'iiid',width:100,checkbox:true" >序号</th>
             <th id="memid" data-options="field:'id',width:100" >序号</th>
             <th data-options="field:'name',width:100">账号</th>
             <th data-options="field:'nickname',width:100">昵称</th>

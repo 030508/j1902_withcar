@@ -48,8 +48,12 @@ public class LoginRegController {
     //登录处理
     @RequestMapping(value = "deallogin",method = RequestMethod.POST)
     public String dealLogin(LoginVo loginVo, HttpSession session){
+        if (loginVo.getVerrifyCode().isEmpty()){return "redirect:/";}
         String verify =(String) session.getAttribute(ImgCode.RANDOMCODEKEY);
+        boolean b = StringUtils.startsWithIgnoreCase(verify,loginVo.getVerrifyCode());
+        System.out.println(b);
         if (StringUtils.startsWithIgnoreCase(verify,loginVo.getVerrifyCode())){
+            System.out.println(verify+"——————————"+loginVo.getVerrifyCode());
               try {
                         //从安全管理器获取主体对象
                  Subject subject = SecurityUtils.getSubject();
