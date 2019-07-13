@@ -1,0 +1,60 @@
+<h3>资讯列表</h3><br>
+<hr>
+<div>
+    <table id="dg11" class="easyui-datagrid"
+           data-options="url:'/valid/articlelist',toolbar:'#tb11',fitColumns:true,singleSelect:false,pagination:true">
+        <thead>
+        <div id="tb11">
+            点赞量:<input name="dianzan" type="text" placeholder="20" size="2">--<input name="dianzan2" type="text" placeholder="50" size="2">&nbsp;&nbsp;&nbsp;&nbsp;
+            访问量:<input name="fangwen" type="text" placeholder="20" size="2">--<input name="fangwen2" type="text" placeholder="50" size="2">&nbsp;&nbsp;&nbsp;&nbsp;
+            收藏量:<input name="shoucang" type="text" placeholder="20" size="2">--<input name="shoucang2" type="text" placeholder="50" size="2">&nbsp;&nbsp;&nbsp;&nbsp;
+            时间:<input name="shijian" type="text" placeholder="20" size="7">--<input name="shijian2" type="text" placeholder="50" size="7">&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+            作者:<input name="zuozhe11" type="text" placeholder="标题/作者" size="7">&nbsp;&nbsp;&nbsp;&nbsp;
+            提交人:<input name="tijiao" type="text" placeholder="标题/作者" size="7">&nbsp;&nbsp;&nbsp;&nbsp;
+            审核人:<input name="shenhe" type="text" placeholder="标题/作者" size="7">&nbsp;&nbsp;&nbsp;&nbsp;
+            发布人:<input name="fabu" type="text" placeholder="标题/作者" size="7">
+            <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search',plain:true,onClick:query">查询</a>
+
+        </div>
+        <tr>
+            <th data-options="field:'ch',checkbox:true,width:100"></th>
+            <th data-options="field:'id',width:100">序号</th>
+            <th data-options="field:'title',width:100">标题</th>
+            <th data-options="field:'source',width:100,align:'right'">来源</th>
+            <th data-options="field:'author',width:100,align:'right'">作者</th>
+            <th data-options="field:'createTime',width:100,align:'right',formatter:formatCreateTime">时间</th>
+            <th data-options="field:'likeCount',width:100,align:'right'">点赞量</th>
+            <th data-options="field:'commentCount',width:100,align:'right'">访问量</th>
+            <th data-options="field:'favCount',width:100,align:'right'">收藏量</th>
+            <th data-options="field:'submitUid',width:100,align:'right'">提交人</th>
+            <th data-options="field:'lastAuditUid',width:100,align:'right'">审核人</th>
+            <th data-options="field:'publishUid',width:100,align:'right'">发布人</th>
+            <th data-options="field:'homeTop',width:100,align:'right'">是否推荐</th>
+        </tr>
+        </thead>
+    </table>
+
+</div>
+<script>
+/*    function formatCreateTime(v,r,i){
+        var d = new Date(v);
+        var year = d.getFullYear();
+        var month = d.getMonth()+1;
+        var date = d.getDate();
+        return year+"年"+month+"月"+date+"日";
+
+    }*/
+    function formatCreateTime(v,r,i){
+        return moment(v).format("YYYY年MM月DD日")
+    }
+    function query(){
+        $('#dg11').datagrid('load',{
+            title:$("[name='zuozhe11']").val(),
+//            title:$("[name='tijiao']").val()
+        })
+    }
+   /* $('#dg').datagrid({
+        toolbar: '#tb'
+    });*/
+    
+</script>

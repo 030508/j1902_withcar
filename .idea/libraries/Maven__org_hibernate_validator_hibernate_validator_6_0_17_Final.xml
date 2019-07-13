@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.hibernate.validator:hibernate-validator:6.0.17.Final">
     <CLASSES>
-      <root url="jar://D:/JavaLibrary/repository/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.jar!/" />
+      <root url="jar://D:/javalibrary/repository/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://D:/JavaLibrary/repository/org/hibernate/validator/hibernate-validator/6.0.17.Final/hibernate-validator-6.0.17.Final-javadoc.jar!/" />

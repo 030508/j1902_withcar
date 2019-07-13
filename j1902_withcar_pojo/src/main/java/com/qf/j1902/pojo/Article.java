@@ -1,5 +1,7 @@
 package com.qf.j1902.pojo;
 
+import java.util.Date;
+
 public class Article {
     private Long id;
 
@@ -45,7 +47,7 @@ public class Article {
 
     private String createUname;
 
-    private Integer createTime;
+    private Date createTime;
 
     private Integer submitUid;
 
@@ -269,11 +271,11 @@ public class Article {
         this.createUname = createUname == null ? null : createUname.trim();
     }
 
-    public Integer getCreateTime() {
+    public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Integer createTime) {
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
 
