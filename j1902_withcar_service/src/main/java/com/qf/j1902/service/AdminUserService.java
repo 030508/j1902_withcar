@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface AdminUserService {
    List<AdminUser> findAllAdminUser();
-   List<AdminUser> findAllAdminUser(Integer page,Integer rows,String name);
+   List<AdminUser> findAllAdminUser(Integer page, Integer rows, String name);
    //通过用户名查询
    AdminUser findOneByName(String username) throws Exception;
 
@@ -27,5 +27,5 @@ public interface AdminUserService {
    void insertAdminUser(AdminUser adminUser);
    //根据id删除
    void deleteAdminUser(int id);
-   void updatePasswordByUserName(String password,String username);
+   void updatePasswordByUserName(String password, String username);
 }

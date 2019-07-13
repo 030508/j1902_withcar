@@ -65,14 +65,14 @@ public class DateTest {
         System.out.println(nedate.getTime());
         System.out.println(oldDate.getTime());
     }
-<<<<<<< HEAD
+
 
     @Test
     public void  ipii(){
 
     }
 
-=======
+
     @Test
     public void iptest() throws UnknownHostException {
         InetAddress inetAddress=InetAddress.getLocalHost();
@@ -80,5 +80,5 @@ public class DateTest {
         System.out.println(ip);
 
     }
->>>>>>> github/master
+
 }

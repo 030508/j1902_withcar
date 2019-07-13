@@ -2,9 +2,11 @@ package com.qf.j1902.controller;
 
 import com.qf.j1902.pojo.AdminMenuAuth;
 import com.qf.j1902.pojo.AdminRole;
+import com.qf.j1902.pojo.AdminUser;
 import com.qf.j1902.service.AdminMenuService;
 import com.qf.j1902.service.AdminRoleService;
 import com.qf.j1902.service.AdminUserService;
+
 import com.qf.j1902.shiro.utils.ImgCode;
 import com.qf.j1902.shiro.utils.SessionKey;
 import com.qf.j1902.vo.LoginVo;
@@ -17,12 +19,14 @@ import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -43,7 +47,7 @@ public class LoginRegController {
     }
     //登录处理
     @RequestMapping(value = "deallogin",method = RequestMethod.POST)
-    public String dealLogin(LoginVo loginVo,HttpSession session){
+    public String dealLogin(LoginVo loginVo, HttpSession session){
         String verify =(String) session.getAttribute(ImgCode.RANDOMCODEKEY);
         if (StringUtils.startsWithIgnoreCase(verify,loginVo.getVerrifyCode())){
               try {
@@ -54,17 +58,29 @@ public class LoginRegController {
                         //登录
                         subject.login(token);
                         if (subject.isAuthenticated()) {
+                            AdminUser adminUser = adminUserService.findOneByName(loginVo.getLoginName());
+                            String name = adminUser.getName();
+                            session.setAttribute("name",name);
+                            Byte isSuper = adminUser.getIsSuper();
+                            session.setAttribute("isSuper",isSuper);
                             session.setAttribute(SessionKey.ADMINUSERNAME,loginVo.getLoginName());
                             Set<AdminMenuAuth> menus = adminMenuService.findAdminMenusByUserName(loginVo.getLoginName());
-                            session.setAttribute(SessionKey.ADMINUSERMENUS,menus);
-                            AdminRole role = adminRoleService.findAdminRolesByUserName(loginVo.getLoginName());
-                            session.setAttribute(SessionKey.ADMINROLE,role);
+                            HashSet<String> adminMemuNames = new HashSet<>();
+                            for (AdminMenuAuth adminMenu:menus) {
+                                adminMemuNames.add(adminMenu.getName());
+                            }
+                            session.setAttribute(SessionKey.ADMINUSERMENUS,adminMemuNames);
+                            AdminRole adminRole = adminRoleService.findAdminRolesByUserName(loginVo.getLoginName());
+                            String rolename = adminRole.getName();
+                            session.setAttribute(SessionKey.ADMINROLE,rolename);
                             return "redirect:/valid/main";//如果登录成功返回的页面
                         }
                     }catch (AuthenticationException e){
                   System.out.println("用户名密码错误");
                   return "redirect:/";
-                    }
+                    } catch (Exception e) {
+                  e.printStackTrace();
+              }
         }else {
             System.out.println("验证码比对失败");
             return "redirect:/";//验证码无效

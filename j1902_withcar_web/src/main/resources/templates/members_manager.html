@@ -1,7 +1,7 @@
 
 <div>
-    <table id="dg" class="easyui-datagrid"
-           data-options="url:'/members/list',fitColumns:true,singleSelect:false ,pagination:true">
+    <table id="dg_mm" class="easyui-datagrid"
+           data-options="url:'/valid/members/list',fitColumns:true,singleSelect:false ,pagination:true">
         <thead>
         <tr class="tt"  >
             <th id="memid" data-options="field:'id',width:100" >序号</th>
@@ -31,7 +31,7 @@
 </div>
 <script>
     function qurey() {
-        $("#dg").datagrid('load',{
+        $("#dg_mm").datagrid('load',{
             title:$("[name='title']").val(),
             gender:$("[name='gender']").val(),
             smallTime:$("[name='smallTime']").val(),
@@ -55,7 +55,7 @@
         return "<a href='#' onclick='xaingqing(this)' >详情</a>";
     }
     function xaingqing(r) {
-        var row = $("#dg").datagrid("getSelected");
+        var row = $("#dg_mm").datagrid("getSelected");
         var tab = $("#tabls").tabs("getTab",r.text);  //通过标题获取索引
         if (tab) {//判断面板
             $("#tabls").tabs("select",r.text);//已存在获取焦点
@@ -64,7 +64,7 @@
                 title: "详情",
                 selected: true,
                 closable: true,
-                href:"/members/details?pid="+row.id
+                href:"/valid/members/details?pid="+row.id
             })
 
         }

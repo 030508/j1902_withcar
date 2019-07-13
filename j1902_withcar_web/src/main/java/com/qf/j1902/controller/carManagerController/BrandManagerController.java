@@ -32,7 +32,7 @@ public class BrandManagerController {
     }
 
 
-    @RequestMapping(value = "/member/brandCar",method = RequestMethod.POST)
+    @RequestMapping(value = "/valid/member/brandCar",method = RequestMethod.POST)
     @ResponseBody
     public Object brandCar(@RequestParam(value = "page",defaultValue = "1")Integer pageNum, @RequestParam(value = "rows",defaultValue = "10")Integer pageSize,@RequestParam(value = "countryId",defaultValue = "0")Integer countryId ,@RequestParam(value = "name",defaultValue = "")String name){
        PageRelstVo pageRelstVo= brandManagerService.selectAll(pageNum ,pageSize,countryId,name);

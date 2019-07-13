@@ -14,6 +14,7 @@ import javax.xml.crypto.Data;
 import java.util.Date;
 
 @Controller
+@RequestMapping("/valid/")
 public class MemberController {
     @Autowired
     private MemberProfileService memberProfileService;
