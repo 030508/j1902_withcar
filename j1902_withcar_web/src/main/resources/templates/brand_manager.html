@@ -71,6 +71,7 @@
             href: '/valid/updateBrand?name='+brand.name+"&logoUrl="+brand.logoUrl+"&id="+brand.id,
             modal: true
         });
+        $('#dg_bm').datagrid('reload');
     }
     function delBrand(v ,r,i) {
         var brand = $("#dg_bm").datagrid('getSelected');

@@ -77,7 +77,7 @@ public class MemberProfileServiceIMpl implements MemberProfileService {
             example.createCriteria().andGenderEqualTo(gender);
         }
         if (!title.isEmpty()){
-            example.createCriteria().andNameEqualTo("%"+title+"%");
+            example.createCriteria().andNameLike("%"+title+"%");
         }
         /*if (!smallTime.equals("")){
             Integer stime = Integer.valueOf(String.valueOf(smallTime).substring(0, 10));

@@ -35,15 +35,13 @@ public class BrandManagerServiceImpl implements BrandManagerService {
             example.createCriteria().andCountryIdEqualTo(countryId);
         }
         if (!name.isEmpty()){
-            example.createCriteria().andNameEqualTo("%"+name+"%");
+            example.createCriteria().andNameLike("%"+name+"%");
         }
         List<CarBrand> carBrands = carBrandMapper.selectByExample(example);
         PageInfo<CarBrand> pageInfo = new PageInfo<>(carBrands);
         relstVo.setTotal(pageInfo.getTotal()); //设置总数
         relstVo.setRows(carBrands);
-
         return relstVo;
-
     }
 
 

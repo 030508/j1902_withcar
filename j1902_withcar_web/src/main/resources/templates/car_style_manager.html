@@ -1,15 +1,19 @@
 <div xmlns:th="http://www.w3.org/1999/xhtml">
 
     <table id="dg_cs" class="easyui-datagrid"
-           data-options="url:'/valid/carModelList',fitColumns:true,singleSelect:true ,pagination:true,rownumbers:true">
+           data-options="url:'/valid/car_style_manager_list',fitColumns:true,singleSelect:true ,pagination:true,rownumbers:true">
         <thead >
         <tr>
             <th data-options="field:'iiid',width:100,checkbox:true" ></th>
             <th data-options="field:'id',width:100,hidden:true">序号</th>
-            <th data-options="field:'name',width:100 ,align:'center'">车系名称</th>
-            <th data-options="field:'makeName',width:100 ,align:'center'">品牌名称</th>
+            <th data-options="field:'name',width:100 ,align:'center'">车型车款</th>
+            <th data-options="field:'makeName',width:100 ,align:'center'">品牌</th>
+            <th data-options="field:'bodyFormName',width:100 ,align:'center'">车款</th>
+            <th data-options="field:'bodyFormName',width:100 ,align:'center'">车款</th>
+            <th data-options="field:'bodyFormName',width:100 ,align:'center'">所属车系</th>
             <th data-options="field:'bodyFormName',width:100 ,align:'center'">类型</th>
             <th data-options="field:'numm',width:100,align:'center',formatter:fromatCaoZuo">操作</th>
+
         </tr>
         </thead>
         <div id="tb">
@@ -21,7 +25,11 @@
             <option value="">请选择类型</option>
             <option value="" th:each="carMo:${carModels}"  th:value="${carMo.bodyForm}" th:text="${carMo.bodyFormName}">aitem1</option>
              </select>
-            <input name="name" type="text" placeholder="车系名称"/>
+            车系:<select  class="easyui-combobox" name="bodyForm" style="width:200px;">
+            <option value="">请选择类型</option>
+            <option value="" th:each="carMo:${carModels}"  th:value="${carMo.bodyForm}" th:text="${carMo.bodyFormName}">aitem1</option>
+        </select>
+            <input name="name" type="text" placeholder="车款"/>
             <a  href="#"  class="easyui-linkbutton" data-options="iconCls:'icon-search',plan:true,onClick:qurey"></a>
             <a  href="#" id="addBrand" class="easyui-linkbutton" data-options="iconCls:'icon-add',plan:true,return:true,onClick:addCarSeries"></a>
             <a  href="#" id="updateBrand" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plan:true,return:false,onClick:updateCarSeries"></a>

@@ -21,7 +21,7 @@
         opacity: 0;
     }
 </style>
-<div>
+<div id="add_brand">
     <form id="ff_addBrand" method="post"  role="form"  enctype="multipart/form-data">
         <div>
             品牌名称:<input name="brandName" type="text" class="easyui-textbox"  style="width:200px">
@@ -52,10 +52,14 @@
             contentType: false,  //tell jQuery not to set contentType
             success : function (data) {
                 if (data=='1'){
-                    $("#dg_bm").dialog("close");
+                    alert("成功");
                     $('#dg_bm').datagrid('reload');
-                   /* $('#dg_bm').datagrid('reload');
-                    $(".tree-title:contains('品牌管理')").parent().click();*/
+                    /*$("#dg_bm").dialog("close");*/
+                    $('#dg_bm').dialog({closed: true});
+                    $('#dg_bm').datagrid('reload');
+                    $('#tabls').datagrid('reload');
+                    /*$('#dg_bm').datagrid('reload');*/
+
 
                 }else {
                     alert("失败");
